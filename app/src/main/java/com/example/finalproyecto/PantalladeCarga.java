@@ -13,12 +13,12 @@ public class PantalladeCarga extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantallade_carga);
 
-        final int Duracion = 25000;  //Tiempo demora de la pantalla
+        final int Duracion = 1000;  //Tiempo demora de la pantalla
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                    Intent intent = new Intent(PantalladeCarga.this, MainActivity.class;
+                    Intent intent = new Intent(PantalladeCarga.this, MainActivity.class);
                     startActivity(intent);
             }
         },Duracion);

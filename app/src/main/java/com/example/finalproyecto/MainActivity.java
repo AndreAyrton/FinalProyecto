@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         LoginBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                startActivity(new Intent(MainActivity.this,Login.class));
+                Intent intent1 = new Intent(MainActivity.this,Login.class);
+                startActivity(intent1);
             }
         });
 
@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         RegistrarBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,Registro.class));
+                Intent intent2 = new Intent(MainActivity.this,Registro.class);
+                startActivity(intent2);
             }
         });
     }

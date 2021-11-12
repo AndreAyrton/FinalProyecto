@@ -77,8 +77,8 @@ public class Registro extends AppCompatActivity {
         firebaseAuth.createUserWithEmailAndPassword(correo,pass)
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>(){
                     @Override
-                    public void onComplete(@NonNull Task<AuthResult> Task){
-                            if (task.isSuccessful){
+                    public void onComplete(@NonNull Task<AuthResult> task){
+                            if (task.isSuccessful()){
                             FirebaseUser user = firebaseAuth.getCurrentUser();
 
                             assert user !=null;
