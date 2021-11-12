@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Red Social</string>
+
+
+    //Inicio
+    <string name="LoginBTN">Login</string>
+    <string name="RegistrarBTN">Registrarme</string>
+
+
+    //Registro
+
+    <string name="RegistroTxT">Registro</string>
+    <string name="Correo">Escriba Correo</string>
+    <string name="Password">Escriba Contraseña</string>
+    <string name="Nombres">Nombres Completos</string>
+    <string name="Apellidos">Apellidos Completos</string>
+    <string name="Edad">Edad</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Direccion">Direccion</string>
+    <string name="REGISTRARUSUARIO">REGISTRARME</string>
+
+
+
+    //Login
+
+    <string name="CorreoLogin">Correo Electronico</string>
+    <string name="PasswordLogin">Contraseña</string>
+    <string name="INGRESAR">LOGIN</string>
+
+
+    //No sesion
+    <string name="NoInicio">No pudo iniciar sesion,intente nuevamente (Revise correo o contraseña)-Verifique conexion a internet</string>
+    <string name="ok_no_inicio">ENTENDIDO</string>
+</resources>
